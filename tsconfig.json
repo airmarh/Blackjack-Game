@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                        /* Output modern JS */
+    "module": "ESNext",                        /* Use ES modules */
+    "moduleResolution": "Node",                /* Node-style resolution */
+    "rootDir": "src",                          /* Your TS source files */
+    "outDir": "dist",                          /* Compiled JS output */
+    "esModuleInterop": true,                   /* Allow default imports from CJS modules */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                            /* Enable strict type checking */
+    "skipLibCheck": true                       /* Skip type checks on .d.ts files */
+  },
+  "include": ["src"],                          /* Compile everything in src/ */
+  "exclude": ["node_modules", "dist"]          /* Don’t compile these */
+}
